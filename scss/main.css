@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  font-family: sans-serif;
+  background: linear-gradient(85deg, #667eea, #764ba2);
+}
+
+.container {
+  background-color: #fff;
+  width: 30rem;
+  height: 38rem;
+  border-radius: 1.2rem;
+  -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.container .upper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 70px;
+  padding: 0 20px;
+}
+
+.container .upper h1 {
+  font-size: 1.4rem;
+}
+
+.container .upper input {
+  width: 15rem;
+  height: 2.5rem;
+  padding: 0 10px;
+  border: none;
+  border-bottom: 2px solid #202124;
+  outline: none;
+}
+
+.container .upper input::-webkit-input-placeholder {
+  color: black;
+}
+
+.container .upper input:-ms-input-placeholder {
+  color: black;
+}
+
+.container .upper input::-ms-input-placeholder {
+  color: black;
+}
+
+.container .upper input::placeholder {
+  color: black;
+}
+
+.container label {
+  padding: 0 20px;
+  margin: 1rem 0;
+  position: absolute;
+  bottom: 0;
+}
+
+.container label input {
+  margin-left: 1rem;
+}
+
+.container #incompleteTodo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 20px;
+  margin-bottom: 1rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.container #incompleteTodo span {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-left: 1rem;
+}
+
+.container #new-todo {
+  height: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2rem;
+}
+
+.container #new-todo input {
+  width: 22rem;
+  height: 2.5rem;
+  padding: 0 10px;
+  border: none;
+  border-bottom: 2px solid #202124;
+  outline: none;
+}
+
+.container #new-todo input::-webkit-input-placeholder {
+  color: black;
+}
+
+.container #new-todo input:-ms-input-placeholder {
+  color: black;
+}
+
+.container #new-todo input::-ms-input-placeholder {
+  color: black;
+}
+
+.container #new-todo input::placeholder {
+  color: black;
+}
+
+.container #new-todo button {
+  border: none;
+  background: none;
+  font-weight: bold;
+  cursor: pointer;
+  color: #667eea;
+  font-size: 1rem;
+}
+
+.container #todos {
+  width: 100%;
+  height: 24rem;
+  margin-top: 1rem;
+  padding: 20px;
+  border-bottom-right-radius: 1.2rem;
+  border-bottom-left-radius: 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+  overflow-y: auto;
+}
+
+.container #todos div {
+  height: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 2px solid black;
+}
+
+.container #todos div span {
+  font-size: 1.1rem;
+}
+
+.container #todos div button {
+  border: none;
+  background: none;
+  outline: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */
